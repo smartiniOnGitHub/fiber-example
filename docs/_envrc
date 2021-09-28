@@ -1,0 +1,12 @@
+#  configuration variables for the current environment
+export ENVIRONMENT=dev-local
+
+# general Go settings for private packages
+export GOPRIVATE=*.example.com,bitbucket.org/example-private
+
+# export GOPATH="${PWD}" # set current folder as go default path
+export GO111MODULE="on" # enable Go module behaviour
+
+
+# application-related settings
+

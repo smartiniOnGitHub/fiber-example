@@ -1,0 +1,29 @@
+
+# fiber-example - troubleshooting #
+
+See [Getting Started - Go](https://golang.org/doc/tutorial/getting-started).
+
+
+## Problems with Visual Studio Code (VSCode) and Go installed via Snap
+
+If VSCode (using Go extension) is not able to install required tools, you can use the following trick:
+open VSCode User Settings () `settings.json` , search for Go and then set:
+
+```
+    "go.alternateTools": {
+        "go": "/snap/go/current/bin/go"
+    },
+ ```
+
+then restart VSCode; all should be fine now.
+
+
+In VSCode it seems imports are not resolved, probably due to a misconfiguration 
+or sources here are not in the right folder, anyway all works and builds the same.
+To get some help from current Go environment do: `go env`.
+
+
+Go module here has been set to 'example.com', just to set a value.
+
+
+----
