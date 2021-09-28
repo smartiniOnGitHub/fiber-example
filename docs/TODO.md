@@ -2,7 +2,6 @@
 
 ## TODO
 
-* [x] general: add a public repo at GitHub (and write here and in the README) and then publish sources there ... wip
 * [x] general: update handler for home page to return some static content: an html page with inside the list of published routes via template, a sample css file, a modern favicon ('favicon.svg' file), etc ... wip
 * [x] general: add a common route prefix to all API exposed, like '/api' (so that a sample URI could be '/api/hello' or '/api/v1/hello') ... wip
 * [x] general: add a 'Makefile' to simplify command lines (to clean, build, create distribution package, run tests, format sources, run the application in debug mode, etc); some tasks (using my standard names) are already included in the 'README.md', so align with it ... wip
@@ -28,6 +27,7 @@
 * [x] general: add features in 'CHANGELOG.md' ... maybe later
 * [x] general: add some test sources ... maybe later
 * [x] general: add a command-line (cli) flag '-help' to show some help ... maybe later
+* [x] general: add a public repo at GitHub (and write here and in the README) and then publish sources there ... ok, created public repo [smartiniOnGitHub/fiber-example](https://github.com/smartiniOnGitHub/fiber-example.git) and published all there; note that (since some time) new repos at GitHub has default branch 'main' (no more 'master'), so I renamed even the local one to 'main'
 
 
 ---------------
