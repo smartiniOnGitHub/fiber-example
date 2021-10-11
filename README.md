@@ -5,7 +5,7 @@ Minimal web application (webapp) made in Go with the Fiber framework
 
 ## Build
 
-Latest Go (golang) stable, 1.16.x or later.
+Latest Go (golang) stable, 1.17.x or later.
 Go dependencies as specified in module descriptor.
 
 Make (cmake) would be useful to simplify command lines, but it's optional.
