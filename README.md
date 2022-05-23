@@ -5,7 +5,7 @@ Minimal web application (webapp) made in Go with the Fiber framework
 
 ## Build
 
-Latest Go (golang) stable, 1.17.x or later.
+Latest Go (golang) stable, 1.18.x or later.
 Go dependencies as specified in module descriptor.
 
 Make (cmake) would be useful to simplify command lines, but it's optional.
@@ -22,16 +22,16 @@ In the [docs](./docs/) folder there is other documentation.
 
 To run it (from sources) use:
 ```bash
-go run src/main.go
+go run main.go
 ```
 
 To build it:
 ```bash
 # normal build (not optimized)
 # go build main.go
-go build -o ./build/fiber-example ./src/main.go
+go build -o ./build/fiber-example ./main.go
 # or to build optimized (maybe use the './dist/' folder instead)
-go build -o ./build/fiber-example -ldflags="-s -w" ./src/main.go
+go build -o ./build/fiber-example -ldflags="-s -w" ./main.go
 ```
 and then run with:
 ```bash
