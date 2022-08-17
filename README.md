@@ -18,6 +18,14 @@ UPX (latest) to compress/shrink executable, optional but reccomended.
 Set runtime properties in environment variables, 
 or for example write them in a '.envrc' file (automatically loaded by 'direnv').
 
+To install/update/cleanup dependencies use:
+```bash
+go mod download
+
+go mod tidy
+go mod verify
+```
+
 In the [docs](./docs/) folder there is other documentation.
 
 To run it (from sources) use:
@@ -81,7 +89,7 @@ For other flags, see output from application help.
 Nothing special installed is mandatory.
 The 'direnv' utility could be useful.
 
-To run the application in a container, an updated version of Docker is needed.
+To run the application in a container, an updated version of Docker or Podman is needed.
 
 
 ## Note
