@@ -2,6 +2,9 @@
 
 ## TODO
 
+* [x] general: update to latest Fiber 2.x (and Go/golang 1.25.x, even if not strictly required, but it will be required for Fiber v3) ... changes done, ensured all works; then tag a version and create a maintenance branch '2.x' ... wip
+* [x] general: add a Makefile to simplify commands ... wip
+* [x] general: update to latest Fiber v3 (just released) ... wip
 * [x] general: add another command-line (cli) application (with its main function), so by Go best practices, in a subfolder 'cmd/healthcheck/' ... wip
 * [x] general: move handler/s in its own sub-module ('handler/' subfolder); maybe with a subfolder for 'api/' and other subfolders for other content ... wip
 * [x] general: update handler for home page to return some static content: an html page with inside the list of published routes via template, a sample css file, a modern favicon ('favicon.svg' file), etc ... wip

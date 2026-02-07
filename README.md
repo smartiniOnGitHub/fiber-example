@@ -5,7 +5,7 @@ Minimal web application (webapp) made in Go with the Fiber framework
 
 ## Build
 
-Latest Go (golang) stable, 1.18.x or later.
+Latest Go (golang) stable, 1.25.x or later.
 Go dependencies as specified in module descriptor.
 
 Make (cmake) would be useful to simplify command lines, but it's optional.
@@ -87,7 +87,8 @@ For other flags, see output from application help.
 ## Requirements
 
 Nothing special installed is mandatory.
-The 'direnv' utility could be useful.
+The 'UPX' compressor/stripper is used in the optimized build phase.
+The 'direnv' utility could be useful, same for 'curl' and 'jq' for tests.
 
 To run the application in a container, an updated version of Docker or Podman is needed.
 
