@@ -2,7 +2,6 @@
 
 ## TODO
 
-* [x] general: update to latest Fiber 2.x (and Go/golang 1.25.x, even if not strictly required, but it will be required for Fiber v3) ... changes done, ensured all works; then tag a version and create a maintenance branch '2.x' ... wip
 * [x] general: add a Makefile to simplify commands ... wip
 * [x] general: update to latest Fiber v3 (just released) ... wip
 * [x] general: add another command-line (cli) application (with its main function), so by Go best practices, in a subfolder 'cmd/healthcheck/' ... wip
@@ -39,6 +38,7 @@
 * [x] general: print detailed version (and source control related informations) when executed from command-line (cli) with the flag '--version'/'-v'; all this would be very useful to fully identify the code/commit for the generated executable (otherwise with only release number it's not enough or could be outdated); for example look at `kubectl version` output, like: `{Client Version: version.Info{Major:"1", Minor:"22", GitVersion:"v1.22.2", GitCommit:"8b5a19147530eaac9476b0ab82980b4088bbc1b2", GitTreeState:"clean", BuildDate:"2021-09-15T21:38:50Z", GoVersion:"go1.16.8", Compiler:"gc", Platform:"linux/amd64"}` ... maybe later, it's too early here now
 * [x] general: update dependencies and remove indirect (transitive) dependencies from 'go.mod', because they are re-added; remove old dependencies with `go mod tidy`, and repeat often ... ok, update requirements to latest Go/golang 1.18 and to latest Fiber (currently 'v2.34.0') and updated even all indirect dependencies to latest
 * [x] general: move main sources from the 'src/' folder in project root (the 'src/' folder is not really useful in Go/Golang projects); then update (if any): 'README.md', 'Makefile', 'Dockerfile', build scripts, etc ... ok, removed folder 'src/' and 'test/' from the project and updated other files
+* [x] general: update to latest Fiber 2.x (and Go/golang 1.25.x, even if not strictly required, but it will be required for Fiber v3) ... ok, changes done, ensured all works; then add a git tag and create a maintenance branch '2.x'
 
 
 ---------------
