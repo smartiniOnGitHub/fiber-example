@@ -20,13 +20,11 @@
 * [x] general: add a 'Dockerfile' (and '.dockerignore', etc), or one for dev and one for run; then put related commands in dedicated make tasks ... wip
 * [x] general: add cross-compilation for Windows/Mac/Linux in related (but secondary) make tasks ... wip
 
-
 ---------------
-
 
 ## DONE
 
-* [x] general: create/update initial skeleton (from an existing example) ... ok, follow these articles: [Go Fiber by Examples - How can the Fiber Web Framework be useful ? - DEV Community](https://dev.to/koddr/go-fiber-by-examples-how-can-the-fiber-web-framework-be-useful-487a), [here](https://dev.to/koddr/build-a-restful-api-on-go-fiber-postgresql-jwt-and-swagger-docs-in-isolated-docker-containers-475j), [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers), [Fiber](https://gofiber.io/), etc
+* [x] general: create/update initial skeleton (from an existing example) ... ok, follow these articles: [Go Fiber by Examples - How can the Fiber Web Framework be useful ? - DEV Community](https://dev.to/koddr/go-fiber-by-examples-how-can-the-fiber-web-framework-be-useful-487a), [Build a RESTful API on Go Fiber, PostgreSQL, JWT, and Swagger Docs in Isolated Docker Containers](https://dev.to/koddr/build-a-restful-api-on-go-fiber-postgresql-jwt-and-swagger-docs-in-isolated-docker-containers-475j), [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers), [Fiber](https://gofiber.io/), etc
 * [x] general: ensure initial version works ... ok, run it in dev/debug mode with: `go run src/main.go` and browse to [localhost:8000](http://127.0.0.1:8000/); to create a dev/debug build with: `go build -o build/fiber-example src/main.go`, finally remove with: `rm ./build/fiber-example*`
 * [x] general: create and publish to the remote repository ... ok, but for now in a common 'note' repo, with some docs, scripts, etc
 * [x] general: add initial version of 'README.md' with some summary info ... ok, and update/improve later
@@ -39,6 +37,5 @@
 * [x] general: update dependencies and remove indirect (transitive) dependencies from 'go.mod', because they are re-added; remove old dependencies with `go mod tidy`, and repeat often ... ok, update requirements to latest Go/golang 1.18 and to latest Fiber (currently 'v2.34.0') and updated even all indirect dependencies to latest
 * [x] general: move main sources from the 'src/' folder in project root (the 'src/' folder is not really useful in Go/Golang projects); then update (if any): 'README.md', 'Makefile', 'Dockerfile', build scripts, etc ... ok, removed folder 'src/' and 'test/' from the project and updated other files
 * [x] general: update to latest Fiber 2.x (and Go/golang 1.25.x, even if not strictly required, but it will be required for Fiber v3) ... ok, changes done, ensured all works; then add a git tag and create a maintenance branch '2.x'
-
 
 ---------------
